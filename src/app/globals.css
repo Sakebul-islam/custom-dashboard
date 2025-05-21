@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+
 :root {
   --background: oklch(0.98 0.01 95.1);
   --foreground: oklch(0.34 0.03 95.72);
@@ -9,7 +10,7 @@
   --card-foreground: oklch(0.22 0 106.56);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.27 0.02 98.94);
-  --primary: oklch(0.97 0.21 109.77);
+  --primary: oklch(0.81 0.17 109.72);
   --primary-foreground: oklch(0.21 0 0);
   --secondary: oklch(0.92 0.01 92.99);
   --secondary-foreground: oklch(0.43 0.02 98.6);
@@ -35,9 +36,12 @@
   --sidebar-accent-foreground: oklch(0.33 0 0);
   --sidebar-border: oklch(0.94 0 0);
   --sidebar-ring: oklch(0.77 0 0);
-  --font-sans: Geist Mono, monospace;
+  /* --font-sans: Geist Mono, monospace;
   --font-serif: Geist Mono, monospace;
-  --font-mono: Geist Mono, monospace;
+  --font-mono: Geist Mono, monospace; */
+  --font-sans: "Exo", sans-serif;
+  --font-serif: "Exo", serif;
+  --font-mono: "Exo", monospace;
   --radius: 0.1rem;
   --shadow-2xs: 0 1px 6px -0.5px hsl(0 0% 10.2% / 0.1);
   --shadow-xs: 0 1px 6px -0.5px hsl(0 0% 10.2% / 0.1);
@@ -88,9 +92,13 @@
   --sidebar-accent-foreground: oklch(0.81 0.01 93.01);
   --sidebar-border: oklch(0.94 0 0);
   --sidebar-ring: oklch(0.77 0 0);
-  --font-sans: Geist Mono, monospace;
+  /* --font-sans: Geist Mono, monospace;
   --font-serif: Geist Mono, monospace;
-  --font-mono: Geist Mono, monospace;
+  --font-mono: Geist Mono, monospace; */
+  --font-sans: "Exo", sans-serif;
+  --font-serif: "Exo", serif;
+  --font-mono: "Exo", monospace;
+
   --radius: 0.1rem;
   --shadow-2xs: 0 1px 6px -0.5px hsl(0 0% 10.2% / 0.1);
   --shadow-xs: 0 1px 6px -0.5px hsl(0 0% 10.2% / 0.1);
